@@ -12,6 +12,7 @@ public class testDAO {
 	Statement stmt;
 	ResultSet rs;
 	PreparedStatement pstmt;
+	
 	private static testDAO dao = new testDAO();
 
 	public static testDAO getInstance() {
